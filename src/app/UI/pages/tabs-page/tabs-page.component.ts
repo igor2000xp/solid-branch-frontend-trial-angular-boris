@@ -5,7 +5,7 @@ export interface IContentPageElement {
   account: number;
 }
 // export type IActivePage = 'active' || '';
-export const activePageInit: Array<'active' | ''> = ['', '', '', ''];
+export const activePageInit: Array<boolean> = [false, false, false, false];
 
 @Component({
   selector: 'app-tabs-page',
@@ -17,7 +17,7 @@ export class TabsPageComponent implements OnInit {
 
   public contentPage: IContentPageElement[] = [{ name: '', account: 0 }];
 
-  public activePage: Array<'active' | ''> = ['active', '', '', ''];
+  public activePage: Array<boolean> = [true, false, false, false];
 
   // constructor() {}
   //
@@ -26,19 +26,19 @@ export class TabsPageComponent implements OnInit {
     switch (idPage) {
       case '0':
         this.contentPage = [{ name: 'Zero Page', account: 0 }];
-        this.activePage = ['active', '', '', ''];
+        this.activePage = [true, false, false, false];
         break;
       case '1':
         this.contentPage = [{ name: 'First Page', account: 1 }];
-        this.activePage = ['', 'active', '', ''];
+        this.activePage = [false, true, false, false];
         break;
       case '2':
         this.contentPage = [{ name: 'Second Page', account: 2 }];
-        this.activePage = ['', '', 'active', ''];
+        this.activePage = [false, false, true, false];
         break;
       case '3':
         this.contentPage = [{ name: 'Third Page', account: 3 }];
-        this.activePage = ['', '', '', 'active'];
+        this.activePage = [false, false, false, true];
         break;
       default:
         this.contentPage = [{ name: 'Something goes wrong', account: 100 }];
