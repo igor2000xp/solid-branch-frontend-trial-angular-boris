@@ -7,9 +7,15 @@ import { AppComponent } from './app.component';
 import { NotFoundPageComponent } from './UI/pages/not-found-page/not-found-page.component';
 import { TabsPageComponent } from './UI/pages/tabs-page/tabs-page.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { DataFilterPipe } from './pipes/data-filter.pipe';
 
 @NgModule({
-  declarations: [AppComponent, NotFoundPageComponent, TabsPageComponent],
+  declarations: [
+    AppComponent,
+    NotFoundPageComponent,
+    TabsPageComponent,
+    DataFilterPipe,
+  ],
   imports: [
     BrowserModule,
     BrowserAnimationsModule,

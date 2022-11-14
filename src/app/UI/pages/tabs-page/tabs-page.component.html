@@ -30,4 +30,7 @@
   </li>
 </ul>
 
-<h2>{{ contentPage[0].name }}</h2>
+<div *ngFor="let item of contentPage | dataFilter: filterString">
+  <span>{{ item.name.first }} {{ item.name.last }} | </span>
+  <span> {{ item.amount }} {{ item.type }}</span>
+</div>

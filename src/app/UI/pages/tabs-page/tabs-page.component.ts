@@ -1,10 +1,11 @@
 import { Component, OnInit } from '@angular/core';
+import { IDatum } from '../../../models';
+import { dataMock } from '../../../data/dataMock';
 
 export interface IContentPageElement {
   name: string;
-  account: number;
+  account: string;
 }
-// export type IActivePage = 'active' || '';
 export const activePageInit: Array<boolean> = [false, false, false, false];
 
 @Component({
@@ -15,9 +16,13 @@ export const activePageInit: Array<boolean> = [false, false, false, false];
 export class TabsPageComponent implements OnInit {
   private isActiveTab: string = '0';
 
-  public contentPage: IContentPageElement[] = [{ name: '', account: 0 }];
+  public contentPage: IDatum[] = [];
 
   public activePage: Array<boolean> = [true, false, false, false];
+
+  public dataFromDb: IDatum[] = dataMock.data;
+
+  public filterString: 'income' | 'outcome' | 'loan' | 'investment' = 'income';
 
   // constructor() {}
   //
@@ -25,23 +30,27 @@ export class TabsPageComponent implements OnInit {
     this.activePage = activePageInit;
     switch (idPage) {
       case '0':
-        this.contentPage = [{ name: 'Zero Page', account: 0 }];
+        this.contentPage = this.dataFromDb;
         this.activePage = [true, false, false, false];
+        this.filterString = 'income';
         break;
       case '1':
-        this.contentPage = [{ name: 'First Page', account: 1 }];
+        this.contentPage = this.dataFromDb;
         this.activePage = [false, true, false, false];
+        this.filterString = 'outcome';
         break;
       case '2':
-        this.contentPage = [{ name: 'Second Page', account: 2 }];
+        this.contentPage = this.dataFromDb;
         this.activePage = [false, false, true, false];
+        this.filterString = 'loan';
         break;
       case '3':
-        this.contentPage = [{ name: 'Third Page', account: 3 }];
+        this.contentPage = this.dataFromDb;
         this.activePage = [false, false, false, true];
+        this.filterString = 'investment';
         break;
       default:
-        this.contentPage = [{ name: 'Something goes wrong', account: 100 }];
+        this.contentPage = [];
     }
   }
 
