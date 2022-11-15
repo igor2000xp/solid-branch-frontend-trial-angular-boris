@@ -9,7 +9,7 @@ const routes: Routes = [
   { path: 'navigator?tab=1', component: TabsPageComponent },
   { path: 'navigator?tab=2', component: TabsPageComponent },
   { path: 'navigator?tab=3', component: TabsPageComponent },
-  { path: '', redirectTo: '/navigator', pathMatch: 'full' },
+  { path: '', redirectTo: '/navigator?tab=0', pathMatch: 'full' },
   { path: '**', component: NotFoundPageComponent },
 ];
 

@@ -1,6 +1,25 @@
 <app-header [activePage]="activePage"></app-header>
 
-<div *ngFor="let item of contentPage | dataFilter: filterString">
-  <span>{{ item.name.first }} {{ item.name.last }} | </span>
-  <span> {{ item.amount }} {{ item.type }}</span>
+<div class="tabs-content-wrapper">
+  <div class="tab-columns">
+    <div class="tab-item-left-column">
+      <div class="tab-item-left">Name</div>
+    </div>
+    <div class="tab-item-right-column">
+      <div class="tab-item-right">Account</div>
+    </div>
+  </div>
+
+  <div *ngFor="let item of contentPage | dataFilter: filterString">
+    <div class="tab-columns">
+      <div class="tab-item-left-column">
+        <div class="tab-item-left">
+          {{ item.name.first }} {{ item.name.last }}
+        </div>
+      </div>
+      <div class="tab-item-right-column">
+        <div class="tab-item-right">{{ item.amount }}</div>
+      </div>
+    </div>
+  </div>
 </div>

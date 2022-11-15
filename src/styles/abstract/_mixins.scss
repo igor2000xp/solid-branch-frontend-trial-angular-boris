@@ -16,8 +16,13 @@
   align-items: $align;
 }
 
-@mixin media-desktop {
+@mixin media-big-desktop {
   @media (min-width: 1300px) {
+    @content;
+  }
+}
+@mixin media-desktop {
+  @media (max-width: 1200px) {
     @content;
   }
 }
