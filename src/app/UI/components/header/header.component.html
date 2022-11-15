@@ -1,0 +1,30 @@
+<ul class="nav nav-tabs">
+  <li class="nav-item">
+    <a
+      [ngClass]="{ 'nav-link': true, active: activePage[0] }"
+      href="{{ navString }}0"
+      >Income</a
+    >
+  </li>
+  <li class="nav-item">
+    <a
+      [ngClass]="{ 'nav-link': true, active: activePage[1] }"
+      href="{{ navString }}1"
+      >Outcome</a
+    >
+  </li>
+  <li class="nav-item">
+    <a
+      [ngClass]="{ 'nav-link': true, active: activePage[2] }"
+      href="{{ navString }}2"
+      >Loans</a
+    >
+  </li>
+  <li class="nav-item">
+    <a
+      [ngClass]="{ 'nav-link': true, active: activePage[3] }"
+      href="{{ navString }}3"
+      >Investments</a
+    >
+  </li>
+</ul>

@@ -1,6 +1,6 @@
 export interface IDatum {
   _id: string;
-  amount: string;
+  amount: number;
   type: 'income' | 'outcome' | 'loan' | 'investment';
   name: { last: string; first: string };
   company: string;

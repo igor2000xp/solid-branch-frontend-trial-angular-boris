@@ -1,11 +1,11 @@
 import { IDataMock } from '../models';
 
-export const dataMock: IDataMock = {
+export const dataMockChanged: IDataMock = {
   total: 100,
   data: [
     {
       _id: '5d99beb677015a5c2c14542e',
-      amount: 'floating(1, 4000, 2)',
+      amount: 2,
       type: 'outcome',
       name: {
         first: 'Jordan',
@@ -18,7 +18,7 @@ export const dataMock: IDataMock = {
     },
     {
       _id: '5d99beb69a6aac64be820dbe',
-      amount: 'floating(1, 4000, 2)',
+      amount: 22,
       type: 'outcome',
       name: {
         first: 'Francis',
@@ -31,7 +31,7 @@ export const dataMock: IDataMock = {
     },
     {
       _id: '5d99beb635dd82195040195b',
-      amount: 'floating(1, 4000, 2)',
+      amount: 245,
       type: 'outcome',
       name: {
         first: 'Bass',
@@ -44,7 +44,7 @@ export const dataMock: IDataMock = {
     },
     {
       _id: '5d99beb6283bac04b3763000',
-      amount: 'floating(1, 4000, 2)',
+      amount: 32,
       type: 'outcome',
       name: {
         first: 'Mabel',
@@ -57,7 +57,7 @@ export const dataMock: IDataMock = {
     },
     {
       _id: '5d99beb6207f35413c9b629b',
-      amount: 'floating(1, 4000, 2)',
+      amount: 323,
       type: 'loan',
       name: {
         first: 'Lambert',
@@ -70,7 +70,7 @@ export const dataMock: IDataMock = {
     },
     {
       _id: '5d99beb6f6db754cee0835a0',
-      amount: 'floating(1, 4000, 2)',
+      amount: 545,
       type: 'income',
       name: {
         first: 'Jeanie',
@@ -83,7 +83,7 @@ export const dataMock: IDataMock = {
     },
     {
       _id: '5d99beb6c0c5d1e73c8bb5a2',
-      amount: 'floating(1, 4000, 2)',
+      amount: 64,
       type: 'income',
       name: {
         first: 'Lynn',
@@ -96,7 +96,7 @@ export const dataMock: IDataMock = {
     },
     {
       _id: '5d99beb69aec11b778e276c9',
-      amount: 'floating(1, 4000, 2)',
+      amount: 75,
       type: 'investment',
       name: {
         first: 'Roseann',
@@ -110,7 +110,7 @@ export const dataMock: IDataMock = {
     },
     {
       _id: '5d99beb61851f0fadfe6bca0',
-      amount: 'floating(1, 4000, 2)',
+      amount: 755,
       type: 'loan',
       name: {
         first: 'Dianna',
@@ -123,7 +123,7 @@ export const dataMock: IDataMock = {
     },
     {
       _id: '5d99beb61894e3a0d8a8aaeb',
-      amount: 'floating(1, 4000, 2)',
+      amount: 763,
       type: 'investment',
       name: {
         first: 'Misty',
@@ -136,7 +136,7 @@ export const dataMock: IDataMock = {
     },
     {
       _id: '5d99beb6b15536f75b46a608',
-      amount: 'floating(1, 4000, 2)',
+      amount: 73,
       type: 'investment',
       name: {
         first: 'Tammie',
@@ -149,7 +149,7 @@ export const dataMock: IDataMock = {
     },
     {
       _id: '5d99beb62fc237aa62133abc',
-      amount: 'floating(1, 4000, 2)',
+      amount: 77,
       type: 'income',
       name: {
         first: 'Rasmussen',
@@ -162,7 +162,7 @@ export const dataMock: IDataMock = {
     },
     {
       _id: '5d99beb6e0f76b46c0f5ce21',
-      amount: 'floating(1, 4000, 2)',
+      amount: 78,
       type: 'outcome',
       name: {
         first: 'Allie',
@@ -175,7 +175,7 @@ export const dataMock: IDataMock = {
     },
     {
       _id: '5d99beb67ba49c6e156b8999',
-      amount: 'floating(1, 4000, 2)',
+      amount: 7456,
       type: 'investment',
       name: {
         first: 'Hammond',
@@ -188,7 +188,7 @@ export const dataMock: IDataMock = {
     },
     {
       _id: '5d99beb6b13450897a61c8b0',
-      amount: 'floating(1, 4000, 2)',
+      amount: 523,
       type: 'loan',
       name: {
         first: 'Scott',
@@ -201,7 +201,7 @@ export const dataMock: IDataMock = {
     },
     {
       _id: '5d99beb6f9f4e1748d85a971',
-      amount: 'floating(1, 4000, 2)',
+      amount: 52,
       type: 'outcome',
       name: {
         first: 'Alexander',
@@ -214,7 +214,7 @@ export const dataMock: IDataMock = {
     },
     {
       _id: '5d99beb600162e31cce6d255',
-      amount: 'floating(1, 4000, 2)',
+      amount: 543,
       type: 'loan',
       name: {
         first: 'Letitia',
@@ -227,7 +227,7 @@ export const dataMock: IDataMock = {
     },
     {
       _id: '5d99beb6f46990cdedd7a054',
-      amount: 'floating(1, 4000, 2)',
+      amount: 577,
       type: 'loan',
       name: {
         first: 'Myers',
@@ -240,7 +240,7 @@ export const dataMock: IDataMock = {
     },
     {
       _id: '5d99beb68066435dd603b971',
-      amount: 'floating(1, 4000, 2)',
+      amount: 5896,
       type: 'outcome',
       name: {
         first: 'Daphne',
@@ -253,7 +253,7 @@ export const dataMock: IDataMock = {
     },
     {
       _id: '5d99beb6481acdc4f1f2dbcd',
-      amount: 'floating(1, 4000, 2)',
+      amount: 5847,
       type: 'loan',
       name: {
         first: 'Dillon',
@@ -266,7 +266,7 @@ export const dataMock: IDataMock = {
     },
     {
       _id: '5d99beb66abe615580c7868c',
-      amount: 'floating(1, 4000, 2)',
+      amount: 25,
       type: 'income',
       name: {
         first: 'Reese',
@@ -279,7 +279,7 @@ export const dataMock: IDataMock = {
     },
     {
       _id: '5d99beb6cf9df8720ce4e771',
-      amount: 'floating(1, 4000, 2)',
+      amount: 267,
       type: 'investment',
       name: {
         first: 'Howard',
@@ -292,7 +292,7 @@ export const dataMock: IDataMock = {
     },
     {
       _id: '5d99beb6022f6189a1f23970',
-      amount: 'floating(1, 4000, 2)',
+      amount: 267,
       type: 'loan',
       name: {
         first: 'Kathleen',
@@ -305,7 +305,7 @@ export const dataMock: IDataMock = {
     },
     {
       _id: '5d99beb6230c62aa8243ff80',
-      amount: 'floating(1, 4000, 2)',
+      amount: 237,
       type: 'outcome',
       name: {
         first: 'Amparo',
@@ -318,7 +318,7 @@ export const dataMock: IDataMock = {
     },
     {
       _id: '5d99beb6f7f32d24da875f1b',
-      amount: 'floating(1, 4000, 2)',
+      amount: 843,
       type: 'investment',
       name: {
         first: 'Acevedo',
@@ -331,7 +331,7 @@ export const dataMock: IDataMock = {
     },
     {
       _id: '5d99beb68b54b0c3a0ef3470',
-      amount: 'floating(1, 4000, 2)',
+      amount: 3466,
       type: 'income',
       name: {
         first: 'Moore',
@@ -344,7 +344,7 @@ export const dataMock: IDataMock = {
     },
     {
       _id: '5d99beb6b7490a9aacc00b1a',
-      amount: 'floating(1, 4000, 2)',
+      amount: 32,
       type: 'investment',
       name: {
         first: 'Ina',
@@ -357,7 +357,7 @@ export const dataMock: IDataMock = {
     },
     {
       _id: '5d99beb64e9dfcb53acd8626',
-      amount: 'floating(1, 4000, 2)',
+      amount: 324545,
       type: 'outcome',
       name: {
         first: 'Dorsey',
@@ -370,7 +370,7 @@ export const dataMock: IDataMock = {
     },
     {
       _id: '5d99beb6f53bb9cc0b870839',
-      amount: 'floating(1, 4000, 2)',
+      amount: 435,
       type: 'loan',
       name: {
         first: 'Wolfe',
@@ -383,7 +383,7 @@ export const dataMock: IDataMock = {
     },
     {
       _id: '5d99beb626d3124fa91e7429',
-      amount: 'floating(1, 4000, 2)',
+      amount: 4985,
       type: 'outcome',
       name: {
         first: 'Manning',
@@ -396,7 +396,7 @@ export const dataMock: IDataMock = {
     },
     {
       _id: '5d99beb664a4e4c72591f9a3',
-      amount: 'floating(1, 4000, 2)',
+      amount: 642,
       type: 'income',
       name: {
         first: 'Tucker',
@@ -409,7 +409,7 @@ export const dataMock: IDataMock = {
     },
     {
       _id: '5d99beb66b24688a0de700a0',
-      amount: 'floating(1, 4000, 2)',
+      amount: 64545,
       type: 'outcome',
       name: {
         first: 'Skinner',
@@ -422,7 +422,7 @@ export const dataMock: IDataMock = {
     },
     {
       _id: '5d99beb6c0dba22f51f3adc2',
-      amount: 'floating(1, 4000, 2)',
+      amount: 34,
       type: 'investment',
       name: {
         first: 'Farrell',
@@ -435,7 +435,7 @@ export const dataMock: IDataMock = {
     },
     {
       _id: '5d99beb6d3647cf8b14c9409',
-      amount: 'floating(1, 4000, 2)',
+      amount: 345,
       type: 'income',
       name: {
         first: 'Cathy',
@@ -448,7 +448,7 @@ export const dataMock: IDataMock = {
     },
     {
       _id: '5d99beb698d1fbade2a863a3',
-      amount: 'floating(1, 4000, 2)',
+      amount: 577,
       type: 'outcome',
       name: {
         first: 'Lindsey',
@@ -461,7 +461,7 @@ export const dataMock: IDataMock = {
     },
     {
       _id: '5d99beb633f3e5c3e8378aa7',
-      amount: 'floating(1, 4000, 2)',
+      amount: 545,
       type: 'outcome',
       name: {
         first: 'Key',
@@ -474,7 +474,7 @@ export const dataMock: IDataMock = {
     },
     {
       _id: '5d99beb6af9bf2e627e8f6ad',
-      amount: 'floating(1, 4000, 2)',
+      amount: 587,
       type: 'outcome',
       name: {
         first: 'Mueller',
@@ -487,7 +487,7 @@ export const dataMock: IDataMock = {
     },
     {
       _id: '5d99beb6967feb03ef03b2e9',
-      amount: 'floating(1, 4000, 2)',
+      amount: 580,
       type: 'investment',
       name: {
         first: 'Stacey',
@@ -500,7 +500,7 @@ export const dataMock: IDataMock = {
     },
     {
       _id: '5d99beb6069071371bb4fe57',
-      amount: 'floating(1, 4000, 2)',
+      amount: 58,
       type: 'investment',
       name: {
         first: 'Fitzpatrick',
@@ -513,7 +513,7 @@ export const dataMock: IDataMock = {
     },
     {
       _id: '5d99beb645e90e295a14abaf',
-      amount: 'floating(1, 4000, 2)',
+      amount: 5,
       type: 'investment',
       name: {
         first: 'Sanchez',
@@ -526,7 +526,7 @@ export const dataMock: IDataMock = {
     },
     {
       _id: '5d99beb65b3f217fd4c9fe32',
-      amount: 'floating(1, 4000, 2)',
+      amount: 7,
       type: 'loan',
       name: {
         first: 'Christian',
@@ -539,7 +539,7 @@ export const dataMock: IDataMock = {
     },
     {
       _id: '5d99beb690336c6b9a82eb4a',
-      amount: 'floating(1, 4000, 2)',
+      amount: 745,
       type: 'outcome',
       name: {
         first: 'Jodie',
@@ -552,7 +552,7 @@ export const dataMock: IDataMock = {
     },
     {
       _id: '5d99beb6c3b33f427845205d',
-      amount: 'floating(1, 4000, 2)',
+      amount: 723,
       type: 'outcome',
       name: {
         first: 'Conley',
@@ -565,7 +565,7 @@ export const dataMock: IDataMock = {
     },
     {
       _id: '5d99beb6121ba61ba9c779bc',
-      amount: 'floating(1, 4000, 2)',
+      amount: 745,
       type: 'loan',
       name: {
         first: 'Janell',
@@ -578,7 +578,7 @@ export const dataMock: IDataMock = {
     },
     {
       _id: '5d99beb6e7771bb8cff666d6',
-      amount: 'floating(1, 4000, 2)',
+      amount: 74656,
       type: 'outcome',
       name: {
         first: 'Ward',
@@ -592,7 +592,7 @@ export const dataMock: IDataMock = {
     },
     {
       _id: '5d99beb6086149feeefc2e66',
-      amount: 'floating(1, 4000, 2)',
+      amount: 702,
       type: 'loan',
       name: {
         first: 'Hogan',
@@ -605,7 +605,7 @@ export const dataMock: IDataMock = {
     },
     {
       _id: '5d99beb6ff11eacb34de4f10',
-      amount: 'floating(1, 4000, 2)',
+      amount: 7343,
       type: 'loan',
       name: {
         first: 'Inez',
@@ -618,7 +618,7 @@ export const dataMock: IDataMock = {
     },
     {
       _id: '5d99beb60be55eb1da68c4ba',
-      amount: 'floating(1, 4000, 2)',
+      amount: 734,
       type: 'loan',
       name: {
         first: 'Bridges',
@@ -631,7 +631,7 @@ export const dataMock: IDataMock = {
     },
     {
       _id: '5d99beb64337005cefde4626',
-      amount: 'floating(1, 4000, 2)',
+      amount: 73,
       type: 'loan',
       name: {
         first: 'Grimes',
@@ -644,7 +644,7 @@ export const dataMock: IDataMock = {
     },
     {
       _id: '5d99beb6f7e4e652c75868a8',
-      amount: 'floating(1, 4000, 2)',
+      amount: 735,
       type: 'investment',
       name: {
         first: 'Shepherd',
@@ -657,7 +657,7 @@ export const dataMock: IDataMock = {
     },
     {
       _id: '5d99beb63c892055952c1908',
-      amount: 'floating(1, 4000, 2)',
+      amount: 726,
       type: 'investment',
       name: {
         first: 'Morris',
@@ -670,7 +670,7 @@ export const dataMock: IDataMock = {
     },
     {
       _id: '5d99beb6c614fe4c8ca3c023',
-      amount: 'floating(1, 4000, 2)',
+      amount: 788,
       type: 'investment',
       name: {
         first: 'Josie',
@@ -683,7 +683,7 @@ export const dataMock: IDataMock = {
     },
     {
       _id: '5d99beb6558891537809623e',
-      amount: 'floating(1, 4000, 2)',
+      amount: 777,
       type: 'loan',
       name: {
         first: 'Hall',
@@ -696,7 +696,7 @@ export const dataMock: IDataMock = {
     },
     {
       _id: '5d99beb6a5060fbac46cc79d',
-      amount: 'floating(1, 4000, 2)',
+      amount: 765,
       type: 'investment',
       name: {
         first: 'Perkins',
@@ -709,7 +709,7 @@ export const dataMock: IDataMock = {
     },
     {
       _id: '5d99beb68533edf2fdc241bb',
-      amount: 'floating(1, 4000, 2)',
+      amount: 723,
       type: 'investment',
       name: {
         first: 'Bender',
@@ -722,7 +722,7 @@ export const dataMock: IDataMock = {
     },
     {
       _id: '5d99beb6ba779217e965a21c',
-      amount: 'floating(1, 4000, 2)',
+      amount: 7243,
       type: 'outcome',
       name: {
         first: 'Boone',
@@ -735,7 +735,7 @@ export const dataMock: IDataMock = {
     },
     {
       _id: '5d99beb6ffddf4af466b7a06',
-      amount: 'floating(1, 4000, 2)',
+      amount: 783,
       type: 'income',
       name: {
         first: 'Cathleen',
@@ -748,7 +748,7 @@ export const dataMock: IDataMock = {
     },
     {
       _id: '5d99beb6d927af5635543e87',
-      amount: 'floating(1, 4000, 2)',
+      amount: 766,
       type: 'investment',
       name: {
         first: 'Marcia',
@@ -761,7 +761,7 @@ export const dataMock: IDataMock = {
     },
     {
       _id: '5d99beb6b0699f34547ef9cd',
-      amount: 'floating(1, 4000, 2)',
+      amount: 704,
       type: 'outcome',
       name: {
         first: 'Claire',
@@ -774,7 +774,7 @@ export const dataMock: IDataMock = {
     },
     {
       _id: '5d99beb61eac41d3bcaeea76',
-      amount: 'floating(1, 4000, 2)',
+      amount: 707,
       type: 'income',
       name: {
         first: 'Gardner',
@@ -787,7 +787,7 @@ export const dataMock: IDataMock = {
     },
     {
       _id: '5d99beb6ef3b7cd3990499d8',
-      amount: 'floating(1, 4000, 2)',
+      amount: 781,
       type: 'outcome',
       name: {
         first: 'Mercer',
@@ -800,7 +800,7 @@ export const dataMock: IDataMock = {
     },
     {
       _id: '5d99beb6815f3f77883aaf66',
-      amount: 'floating(1, 4000, 2)',
+      amount: 9,
       type: 'investment',
       name: {
         first: 'Rebecca',
@@ -813,7 +813,7 @@ export const dataMock: IDataMock = {
     },
     {
       _id: '5d99beb6adcc0c81c5e63963',
-      amount: 'floating(1, 4000, 2)',
+      amount: 911,
       type: 'outcome',
       name: {
         first: 'Church',
@@ -826,7 +826,7 @@ export const dataMock: IDataMock = {
     },
     {
       _id: '5d99beb685d74a082da6bc67',
-      amount: 'floating(1, 4000, 2)',
+      amount: 945,
       type: 'investment',
       name: {
         first: 'Jocelyn',
@@ -839,7 +839,7 @@ export const dataMock: IDataMock = {
     },
     {
       _id: '5d99beb688c61720ca3ce583',
-      amount: 'floating(1, 4000, 2)',
+      amount: 94565,
       type: 'investment',
       name: {
         first: 'Virginia',
@@ -852,7 +852,7 @@ export const dataMock: IDataMock = {
     },
     {
       _id: '5d99beb6639c96a75559eeac',
-      amount: 'floating(1, 4000, 2)',
+      amount: 9434,
       type: 'investment',
       name: {
         first: 'Odonnell',
@@ -865,7 +865,7 @@ export const dataMock: IDataMock = {
     },
     {
       _id: '5d99beb67a6153f9b5df016e',
-      amount: 'floating(1, 4000, 2)',
+      amount: 944,
       type: 'income',
       name: {
         first: 'Tia',
@@ -878,7 +878,7 @@ export const dataMock: IDataMock = {
     },
     {
       _id: '5d99beb6fb959e811bd36cb4',
-      amount: 'floating(1, 4000, 2)',
+      amount: 947,
       type: 'loan',
       name: {
         first: 'Duran',
@@ -891,7 +891,7 @@ export const dataMock: IDataMock = {
     },
     {
       _id: '5d99beb64ffa3eefb4f844ae',
-      amount: 'floating(1, 4000, 2)',
+      amount: 9565,
       type: 'outcome',
       name: {
         first: 'Margo',
@@ -904,7 +904,7 @@ export const dataMock: IDataMock = {
     },
     {
       _id: '5d99beb626a11674d75bba44',
-      amount: 'floating(1, 4000, 2)',
+      amount: 95454,
       type: 'income',
       name: {
         first: 'Lyons',
@@ -917,7 +917,7 @@ export const dataMock: IDataMock = {
     },
     {
       _id: '5d99beb6b6d969195fff486f',
-      amount: 'floating(1, 4000, 2)',
+      amount: 945,
       type: 'investment',
       name: {
         first: 'Gonzales',
@@ -930,7 +930,7 @@ export const dataMock: IDataMock = {
     },
     {
       _id: '5d99beb6e28b54e75b93127f',
-      amount: 'floating(1, 4000, 2)',
+      amount: 122,
       type: 'loan',
       name: {
         first: 'Larsen',
@@ -943,7 +943,7 @@ export const dataMock: IDataMock = {
     },
     {
       _id: '5d99beb62ddbe863c0e68462',
-      amount: 'floating(1, 4000, 2)',
+      amount: 122343,
       type: 'outcome',
       name: {
         first: 'Bradshaw',
@@ -956,7 +956,7 @@ export const dataMock: IDataMock = {
     },
     {
       _id: '5d99beb6064d6307872d67d3',
-      amount: 'floating(1, 4000, 2)',
+      amount: 454,
       type: 'outcome',
       name: {
         first: 'Leta',
@@ -969,7 +969,7 @@ export const dataMock: IDataMock = {
     },
     {
       _id: '5d99beb6410994433c7d1eba',
-      amount: 'floating(1, 4000, 2)',
+      amount: 565,
       type: 'investment',
       name: {
         first: 'Baxter',
@@ -982,7 +982,7 @@ export const dataMock: IDataMock = {
     },
     {
       _id: '5d99beb65bf1a846313590f0',
-      amount: 'floating(1, 4000, 2)',
+      amount: 343,
       type: 'investment',
       name: {
         first: 'Chen',
@@ -995,7 +995,7 @@ export const dataMock: IDataMock = {
     },
     {
       _id: '5d99beb6fc1c67e102aee9e7',
-      amount: 'floating(1, 4000, 2)',
+      amount: 675,
       type: 'loan',
       name: {
         first: 'Mcfarland',
@@ -1008,7 +1008,7 @@ export const dataMock: IDataMock = {
     },
     {
       _id: '5d99beb63a32d412427672da',
-      amount: 'floating(1, 4000, 2)',
+      amount: 6858,
       type: 'outcome',
       name: {
         first: 'Hernandez',
@@ -1021,7 +1021,7 @@ export const dataMock: IDataMock = {
     },
     {
       _id: '5d99beb61f78f116aafaad7b',
-      amount: 'floating(1, 4000, 2)',
+      amount: 234,
       type: 'income',
       name: {
         first: 'Katina',
@@ -1034,7 +1034,7 @@ export const dataMock: IDataMock = {
     },
     {
       _id: '5d99beb6abc50cae2376910a',
-      amount: 'floating(1, 4000, 2)',
+      amount: 6474,
       type: 'loan',
       name: {
         first: 'Tanya',
@@ -1047,7 +1047,7 @@ export const dataMock: IDataMock = {
     },
     {
       _id: '5d99beb6a6c3c2ca5dcb855c',
-      amount: 'floating(1, 4000, 2)',
+      amount: 96554,
       type: 'loan',
       name: {
         first: 'Tillman',
@@ -1060,7 +1060,7 @@ export const dataMock: IDataMock = {
     },
     {
       _id: '5d99beb695b05943e5dd78dd',
-      amount: 'floating(1, 4000, 2)',
+      amount: 234,
       type: 'outcome',
       name: {
         first: 'Maria',
@@ -1073,7 +1073,7 @@ export const dataMock: IDataMock = {
     },
     {
       _id: '5d99beb6608b27c39d17ce02',
-      amount: 'floating(1, 4000, 2)',
+      amount: 657,
       type: 'loan',
       name: {
         first: 'Sondra',
@@ -1086,7 +1086,7 @@ export const dataMock: IDataMock = {
     },
     {
       _id: '5d99beb649dcf9042e8ebf3e',
-      amount: 'floating(1, 4000, 2)',
+      amount: 85856,
       type: 'income',
       name: {
         first: 'Carpenter',
@@ -1099,7 +1099,7 @@ export const dataMock: IDataMock = {
     },
     {
       _id: '5d99beb6eff39a753c169f9c',
-      amount: 'floating(1, 4000, 2)',
+      amount: 4564,
       type: 'investment',
       name: {
         first: 'Christina',
@@ -1112,7 +1112,7 @@ export const dataMock: IDataMock = {
     },
     {
       _id: '5d99beb634e062b7a7bca29b',
-      amount: 'floating(1, 4000, 2)',
+      amount: 123,
       type: 'income',
       name: {
         first: 'Anna',
@@ -1125,7 +1125,7 @@ export const dataMock: IDataMock = {
     },
     {
       _id: '5d99beb6fd10ed3634a91a16',
-      amount: 'floating(1, 4000, 2)',
+      amount: 345,
       type: 'loan',
       name: {
         first: 'Yolanda',
@@ -1138,7 +1138,7 @@ export const dataMock: IDataMock = {
     },
     {
       _id: '5d99beb67d581d81e0038c8e',
-      amount: 'floating(1, 4000, 2)',
+      amount: 6574,
       type: 'outcome',
       name: {
         first: 'Kristi',
@@ -1151,7 +1151,7 @@ export const dataMock: IDataMock = {
     },
     {
       _id: '5d99beb654a34b0559076fe6',
-      amount: 'floating(1, 4000, 2)',
+      amount: 4565,
       type: 'investment',
       name: {
         first: 'Stacie',
@@ -1164,7 +1164,7 @@ export const dataMock: IDataMock = {
     },
     {
       _id: '5d99beb6b28061f866d2c339',
-      amount: 'floating(1, 4000, 2)',
+      amount: 76867,
       type: 'outcome',
       name: {
         first: 'Bonner',
@@ -1177,7 +1177,7 @@ export const dataMock: IDataMock = {
     },
     {
       _id: '5d99beb65814fce715011141',
-      amount: 'floating(1, 4000, 2)',
+      amount: 4564,
       type: 'investment',
       name: {
         first: 'Graciela',
@@ -1190,7 +1190,7 @@ export const dataMock: IDataMock = {
     },
     {
       _id: '5d99beb62061d5009c894004',
-      amount: 'floating(1, 4000, 2)',
+      amount: 3245,
       type: 'loan',
       name: {
         first: 'Marsha',
@@ -1203,7 +1203,7 @@ export const dataMock: IDataMock = {
     },
     {
       _id: '5d99beb66941cc9e3e358edd',
-      amount: 'floating(1, 4000, 2)',
+      amount: 456,
       type: 'loan',
       name: {
         first: 'Ladonna',
@@ -1216,7 +1216,7 @@ export const dataMock: IDataMock = {
     },
     {
       _id: '5d99beb669a12f644f5139ee',
-      amount: 'floating(1, 4000, 2)',
+      amount: 4456,
       type: 'outcome',
       name: {
         first: 'Alta',
@@ -1229,7 +1229,7 @@ export const dataMock: IDataMock = {
     },
     {
       _id: '5d99beb6d97a1b21014e5ff1',
-      amount: 'floating(1, 4000, 2)',
+      amount: 2442,
       type: 'income',
       name: {
         first: 'Ayala',
@@ -1242,7 +1242,7 @@ export const dataMock: IDataMock = {
     },
     {
       _id: '5d99beb6ccc8097475120981',
-      amount: 'floating(1, 4000, 2)',
+      amount: 2442,
       type: 'investment',
       name: {
         first: 'Glenda',
@@ -1255,7 +1255,7 @@ export const dataMock: IDataMock = {
     },
     {
       _id: '5d99beb645a511c0f6bce20b',
-      amount: 'floating(1, 4000, 2)',
+      amount: 2442234,
       type: 'income',
       name: {
         first: 'Rhodes',
@@ -1268,7 +1268,7 @@ export const dataMock: IDataMock = {
     },
     {
       _id: '5d99beb6a22b596eaf635fd1',
-      amount: 'floating(1, 4000, 2)',
+      amount: 2442234,
       type: 'loan',
       name: {
         first: 'Bond',
@@ -1281,7 +1281,7 @@ export const dataMock: IDataMock = {
     },
     {
       _id: '5d99beb65daa71ef83ec6f57',
-      amount: 'floating(1, 4000, 2)',
+      amount: 4234,
       type: 'income',
       name: {
         first: 'Curry',
@@ -1294,7 +1294,7 @@ export const dataMock: IDataMock = {
     },
     {
       _id: '5d99beb60457512fe012d3c8',
-      amount: 'floating(1, 4000, 2)',
+      amount: 4234565,
       type: 'income',
       name: {
         first: 'Rhoda',

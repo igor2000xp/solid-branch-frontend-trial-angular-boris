@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { IDatum } from '../../../models';
-import { dataMock } from '../../../data/dataMock';
+import { dataMockChanged } from '../../../data/dataMockChanged';
 
 export interface IContentPageElement {
   name: string;
@@ -20,12 +20,10 @@ export class TabsPageComponent implements OnInit {
 
   public activePage: Array<boolean> = [true, false, false, false];
 
-  public dataFromDb: IDatum[] = dataMock.data;
+  public dataFromDb: IDatum[] = dataMockChanged.data;
 
   public filterString: 'income' | 'outcome' | 'loan' | 'investment' = 'income';
 
-  // constructor() {}
-  //
   private switchPage(idPage: string) {
     this.activePage = activePageInit;
     switch (idPage) {
@@ -57,6 +55,5 @@ export class TabsPageComponent implements OnInit {
   ngOnInit(): void {
     this.isActiveTab = document.location.search.split('=')[1];
     this.switchPage(this.isActiveTab);
-    // console.log(idPage);
   }
 }

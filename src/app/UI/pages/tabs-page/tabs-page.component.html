@@ -1,34 +1,4 @@
-<ul class="nav nav-tabs">
-  <li class="nav-item">
-    <a
-      [ngClass]="{ 'nav-link': true, active: activePage[0] }"
-      href="/navigator?tab=0"
-      >Income</a
-    >
-  </li>
-  <li class="nav-item">
-    <!--    <a class="nav-link {{ activePage[1] }}" href="/navigator?tab=1">Outcome</a>-->
-    <a
-      [ngClass]="{ 'nav-link': true, active: activePage[1] }"
-      href="/navigator?tab=1"
-      >Outcome</a
-    >
-  </li>
-  <li class="nav-item">
-    <a
-      [ngClass]="{ 'nav-link': true, active: activePage[2] }"
-      href="/navigator?tab=2"
-      >Loans</a
-    >
-  </li>
-  <li class="nav-item">
-    <a
-      [ngClass]="{ 'nav-link': true, active: activePage[3] }"
-      href="/navigator?tab=3"
-      >Investments</a
-    >
-  </li>
-</ul>
+<app-header [activePage]="activePage"></app-header>
 
 <div *ngFor="let item of contentPage | dataFilter: filterString">
   <span>{{ item.name.first }} {{ item.name.last }} | </span>
