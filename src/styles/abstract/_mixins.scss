@@ -1,0 +1,43 @@
+@mixin font-mix($size: 1.5rem, $height: 120%, $weight: 400, $style: normal) {
+  font-size: $size;
+  font-family: "Roboto", sans-serif;
+  font-style: $style;
+  font-weight: $weight;
+  line-height: $height;
+}
+
+@mixin border($color: white) {
+  border: 1px solid $color;
+}
+@mixin display-flex($justify: center, $direction: row, $align: center) {
+  display: flex;
+  flex-direction: $direction;
+  justify-content: $justify;
+  align-items: $align;
+}
+
+@mixin media-big-desktop {
+  @media (min-width: 1300px) {
+    @content;
+  }
+}
+@mixin media-desktop {
+  @media (max-width: 1200px) {
+    @content;
+  }
+}
+@mixin media-laptop {
+  @media (max-width: 1000px) {
+    @content;
+  }
+}
+@mixin media-tablet {
+  @media (max-width: 800px) {
+    @content;
+  }
+}
+@mixin media-mobile {
+  @media (max-width: 600px) {
+    @content;
+  }
+} ;

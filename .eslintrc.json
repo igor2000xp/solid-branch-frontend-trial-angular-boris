@@ -1,0 +1,64 @@
+{
+  "root": true,
+  "ignorePatterns": ["projects/**/*"],
+  "plugins": ["import"],
+  "overrides": [
+    {
+      "files": ["*.ts"],
+      "parserOptions": {
+        "project": ["**/tsconfig.json"],
+        "tsconfigRootDir": ["__dirname"],
+        "sourceType": "module",
+        "createDefaultProgram": true
+      },
+      "extends": [
+        "plugin:@angular-eslint/recommended",
+        "plugin:@angular-eslint/template/process-inline-templates",
+        "airbnb-typescript/base",
+        "plugin:prettier/recommended"
+      ],
+      "rules": {
+        "@typescript-eslint/no-unused-vars": "warn",
+        "import/prefer-default-export": "off",
+        "no-useless-constructor": "off",
+        "linebreak-style": "off",
+        "@typescript-eslint/no-useless-constructor": "warn",
+        "@angular-eslint/no-empty-lifecycle-method": "warn",
+        "@typescript-eslint/no-empty-function": "warn",
+        "class-methods-use-this": "off",
+        "no-empty-function": "off",
+        "arrow-body-style": "off",
+        "@angular-eslint/directive-selector": [
+          "error",
+          {
+            "type": "attribute",
+            "prefix": "app",
+            "style": "camelCase"
+          }
+        ],
+        "@angular-eslint/component-selector": [
+          "error",
+          {
+            "type": "element",
+            "prefix": "app",
+            "style": "kebab-case"
+          }
+        ]
+      }
+    },
+    {
+      "files": ["*.html"],
+      "extends": ["plugin:@angular-eslint/template/recommended"],
+      "rules": {}
+    },
+    {
+      "files": ["*.html"],
+      "excludedFiles": ["*inline-template-*.component.html"],
+      "extends": ["plugin:prettier/recommended"],
+      "rules": {
+        // NOTE: WE ARE OVERRIDING THE DEFAULT CONFIG TO ALWAYS SET THE PARSER TO ANGULAR (SEE BELOW)
+        "prettier/prettier": ["error", { "parser": "angular" }]
+      }
+    }
+  ]
+}
